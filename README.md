@@ -45,4 +45,4 @@ Android App with MVVM, Architecture Components (ViewModel, LiveData etc.), Depen
 
 ![](revolut-gif.gif)
 
-![revolut](https://github.com/BeyazidYargici/RevolutCurrency/blob/BeyazidYargici-patch-2/revolut-gif.gif)
+![revolut](revolut-gif.gif)
