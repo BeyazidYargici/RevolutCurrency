@@ -44,3 +44,4 @@ Android App with MVVM, Architecture Components (ViewModel, LiveData etc.), Depen
 * It creates alert dialog when the network is unavailable
 
 
+![revolut.gif](https://s5.gifyu.com/images/revolut.gif)
