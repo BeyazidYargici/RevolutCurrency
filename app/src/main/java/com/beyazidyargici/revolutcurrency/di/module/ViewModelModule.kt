@@ -18,7 +18,7 @@ internal abstract class ViewModelModule {
     @Binds
     @IntoMap
     @ViewModelKey(CurrencyRatesViewModel::class)
-    protected abstract fun bindLatestNewsViewModel(currencyRatesViewModel: CurrencyRatesViewModel): ViewModel
+    protected abstract fun bindCurrencyRatesViewModel(currencyRatesViewModel: CurrencyRatesViewModel): ViewModel
 
 
 }

@@ -9,7 +9,7 @@ import dagger.Module
 abstract class ViewModelFactoryModule {
 
     @Binds
-    abstract fun bindLatestNewsViewModelFactory(currencyRatesViewModelFactory: CurrencyRatesViewModelFactory): ViewModelProvider.Factory
+    abstract fun bindCurrencyRatesViewModelFactory(currencyRatesViewModelFactory: CurrencyRatesViewModelFactory): ViewModelProvider.Factory
 
 
 }

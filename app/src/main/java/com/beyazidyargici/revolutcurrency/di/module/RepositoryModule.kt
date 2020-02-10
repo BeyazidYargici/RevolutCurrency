@@ -10,6 +10,6 @@ import dagger.Provides
 class RepositoryModule {
 
     @Provides
-    internal fun provideLatestNewsRepository(currencyDatasource: CurrencyDatasource): CurrencyRepository = CurrencyRepositoryImp(currencyDatasource)
+    internal fun provideCurrencyRepositoryImp(currencyDatasource: CurrencyDatasource): CurrencyRepository = CurrencyRepositoryImp(currencyDatasource)
 
 }
