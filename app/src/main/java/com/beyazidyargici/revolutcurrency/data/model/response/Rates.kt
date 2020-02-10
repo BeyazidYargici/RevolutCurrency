@@ -1,4 +1,4 @@
-package com.beyazidyargici.revolutcurrency.data.response
+package com.beyazidyargici.revolutcurrency.data.model.response
 
 import com.google.gson.annotations.SerializedName
 
