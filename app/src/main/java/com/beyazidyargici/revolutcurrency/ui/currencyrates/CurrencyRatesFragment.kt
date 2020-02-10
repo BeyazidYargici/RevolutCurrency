@@ -46,6 +46,8 @@ class CurrencyRatesFragment : BaseFragment(), CurrencyListener {
         viewModel = ViewModelProvider(this, vmFactoryRates).get(CurrencyRatesViewModel::class.java)
         recyclerView = fr_currency_rates_recyclerview
         initAdapter()
+        progressBar = progress_bar
+        progressBarVisibility(true)
     }
 
     /**
@@ -58,6 +60,7 @@ class CurrencyRatesFragment : BaseFragment(), CurrencyListener {
         // observer for the response
         viewModel.currencyModel.observe(this, Observer {
             if (it == null) return@Observer
+            progressBarVisibility(false)
             val currencies = currencyMapper.convertResponseToCurrencyList(it, baseValue)
             adapter.submitItems(currencies)
         })
