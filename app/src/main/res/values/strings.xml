@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RevolutCurrency</string>
+    <string name="flag">country flag</string>
+    <string name="internet_connection_error">Oppps, Looks like there\'s no internet connection</string>
 </resources>
