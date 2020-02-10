@@ -5,10 +5,16 @@ buildscript {
     ext.room_version = '2.2.3'
     ext.lifecycle_version = '2.2.0'
     ext.retrofit_version = '2.7.1'
+    ext.daggerVersion = '2.24'
+    ext.stethoVersion ='1.5.0'
+    ext.timberVersion = '4.7.1'
+    ext.glideVersion = '4.9.0'
+    ext.gsonVersion = '2.8.5'
+
     repositories {
         google()
         jcenter()
-        
+        maven { url "https://jitpack.io" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
