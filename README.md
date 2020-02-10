@@ -43,6 +43,4 @@ Android App with MVVM, Architecture Components (ViewModel, LiveData etc.), Depen
 * It stops the network processes when app is in the background
 * It creates alert dialog when the network is unavailable
 
-![](revolut-gif.gif)
-
-![revolut](revolut-gif.gif)
+![revolut](https://gfycat.com/advanceddiligentafricanpiedkingfisher)
