@@ -1,7 +1,7 @@
 # RevolutCurrency
 Android App with MVVM, Architecture Components (ViewModel, LiveData etc.), Dependency Injection (Dagger2), Kotlin Coroutines
 
-##### Architecture
+#### Architecture
 * It uses MVVM architecture
 * It based on one activity-multiple fragment approach (MainActivity is container activity for this situation)
 * It uses Dagger2 for dependency injection
@@ -36,7 +36,7 @@ Android App with MVVM, Architecture Components (ViewModel, LiveData etc.), Depen
     implementation "com.github.bumptech.glide:glide:4.9.0"
     kapt "com.github.bumptech.glide:compiler:4.9.0"
     
-##### Features
+#### Features
 * It fetches currency data every second
 * It calculates of currencies by main currency 
 * It can switch between currencies
