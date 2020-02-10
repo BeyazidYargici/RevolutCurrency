@@ -12,6 +12,10 @@ import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import javax.inject.Inject
 
+/**
+ *  All fragments building on this activity to apply one activity multiple fragment approach
+ *  Created by beyazid on 10/02/2020.
+ */
 class MainActivity : BaseActivity(), DialogInterface {
 
     var context: Context? = null
@@ -32,11 +36,10 @@ class MainActivity : BaseActivity(), DialogInterface {
             replace(R.id.ac_main_fragment_container, fragment, fragment.tag)
         }
     }
+
     private val customAlertDialog = CustomAlertDialog(this)
 
-    override fun showDialog() {
-        customAlertDialog.createAlertDialog()
-    }
+    override fun showDialog() = customAlertDialog.createAlertDialog()
 
 
 }
