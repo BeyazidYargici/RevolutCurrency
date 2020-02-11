@@ -6,8 +6,8 @@ Android App with MVVM, Architecture Components (ViewModel, LiveData etc.), Depen
 * It based on one activity-multiple fragment approach (MainActivity is container activity for this situation)
 * It uses Dagger2 for dependency injection
 * It has repository and datasources
-  * The datasource classes are responsible for fetching data from remote(rest api) or local(database) datasource (local datasource is not implemented for this app)
-  * The repository classes are responsible for getting data from datasource and feeding viewmodel
+  * Datasource classes are responsible for fetching data from remote(rest api) or local(database) datasource (local datasource is not implemented for this app)
+  * Repository classes are responsible for getting data from datasource and feeding viewmodel
 
 #### Libraries
 
