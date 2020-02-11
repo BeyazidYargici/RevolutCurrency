@@ -38,7 +38,7 @@ Android App with MVVM, Architecture Components (ViewModel, LiveData etc.), Depen
     
 #### Features
 * It fetches currency data every second
-* It calculates of currencies by main currency 
+* It calculates currencies by selected main currency 
 * It can switch between currencies
 * It stops the network processes when app is in the background
 * It creates alert dialog when the network is unavailable
